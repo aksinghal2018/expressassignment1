@@ -1,1 +1,1 @@
-export  const  MainUrl='https://newpostserver.herokuapp.com/'
+export  const  MainUrl='https://newpostserver.herokuapp.com/api/'
