@@ -1,1 +1,1 @@
-export  const  MainUrl='http://localhost:8899/api/'
+export  const  MainUrl='https://newpostserver.herokuapp.com/'

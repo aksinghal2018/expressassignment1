@@ -19,7 +19,7 @@ function Posts() {
 
     }, [])
     const updatedata = (data) => {
-        window.location.replace(`http://localhost:8899/api/post/update/${data}`)
+        window.location.replace(`https://newpostserver.herokuapp.com/api/post/update/${data}`)
     }
     const deletedata = (data) => {
         deletetrequest(data).then(data => {
