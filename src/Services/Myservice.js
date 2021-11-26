@@ -18,3 +18,17 @@ export  const  deletetrequest=(data)=>{
     return(
     axios.delete(`${MainUrl}post/deletepost/${data}`))
 }
+export const getrequestuser=()=>{
+    return(axios.get(`${MainUrl}post/getuser`))
+}
+export  const  postrequestuser=(data)=>{
+    return(
+    axios.post(`${MainUrl}post/adduser`,data))
+}
+export const getrequestproduct=()=>{
+    return(axios.get(`${MainUrl}post/getproduct`))
+}
+export  const  postrequestproduct=(data)=>{
+    return(
+    axios.post(`${MainUrl}post/addproduct`,data))
+}
